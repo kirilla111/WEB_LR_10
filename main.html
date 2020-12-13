@@ -1,0 +1,149 @@
+<html lang="ru">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>ДЗ_10</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <span class="title">Страница для демонстрации работы JQuery и JQuery UI</span><br>
+            <span class="title link"><a href="https://github.com/kirilla111/WEB_LR_10">Сслыка на GitHub</a></span>
+        </div>
+    </header>
+    <main align="center">
+        <div class="border">
+            <h1 style="font-size: 36px;">Демонстрация работы метода .ready():</h1>
+            <div class="border">
+                <h1>Демонстрация работы метода .click():</h1>
+                <div><span class="title">Демонстрация работы метода .addClass() и .removeClass(): </span>
+                    <br>
+                    <button id="addClassButton">Изменить текст</button>
+                    <button id="removeClassButton">Вернуть к исходному</button>
+                    <p id="addClassObject">
+                        Стиль текста изменится при нажатии на кнопку "Изменить текст"
+                    </p>
+                </div>
+
+
+                <div><span class="title">Демонстрация работы методов .hide() и .show(): </span>
+                    <br>
+                    <button id="hideButton">Скрыть текст</button>
+                    <button id="showButton" style="margin: 0px;">Показать текст</button>
+                    <p id="hideObject">
+                        Этот текст скроется при нажатии на кнопку "Скрыть текст"
+                    </p>
+                </div>
+
+
+
+            </div>
+            <div class="border">
+                <h1>Демонстрация работы метода .hover():</h1>
+                <div>
+                    <span class="title">Демонстрация работы метода .css() и .find(): </span>
+                    <div id="father">
+                        <p id="hoverObject">Наведите для изменения стиля текста ниже</p>
+                        <p id="hoverText">Текст, который должен поменять цвет и размер</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border paddPlus" align="center">
+                <h1>Демонстрация работы методов .filter(), .toLowerCase(), .toggle(), .indexOf, .on(), .val(), .text():</h1>
+                <p>Впишите ключевое слово для осуществления поиска по скписку ниже:</p>
+
+                <div style="display: flex; justify-content: center;"><input id="myInput" type="text" placeholder="Поиск.."></div>
+                <br>
+                <ul id="myList">
+                    <li>Строка № 1</li>
+                    <li>Строка № 2</li>
+                    <li>Строка № 3</li>
+                    <li>Последняя строка</li>
+                </ul>
+            </div>
+        </div>
+        <div class="border">
+            <h1 style="font-size: 36px;">Демонстрация работы JQuery UI:</h1>
+            <div class="border">
+                <h2>Демонстрация работы плагина .draggable():</h2>
+                <div id="draggable" class="ui-widget-content border" style="background-color: whitesmoke;">
+                    <p>Этот блок можно перетаскивать</p>
+                </div>
+            </div>
+            <div class="border" align="center">
+               <h2>Демонстрация работы виджета .menu():</h2>
+                <ul id="menu" class="fatherMenu">
+                    <li>
+                        <div>Фильмы</div>
+                        <ul>
+                            <li class="ui-state-disabled">
+                                <div>Комедия</div>
+                            </li>
+                            <li>
+                                <div>Фантастика</div>
+                            </li>
+                            <li>
+                                <div>Триллеры</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>Музыка</div>
+                        <ul>
+                            <li>
+                                <div>Классика</div>
+                                <ul>
+                                    <li>
+                                        <div>Современная</div>
+                                    </li>
+                                    <li>
+                                        <div>Настоящая классика</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>Джаз</div>
+                                <ul>
+                                    <li>
+                                        <div>Freejazz</div>
+                                    </li>
+                                    <li>
+                                        <div>Big Band</div>
+                                    </li>
+                                    <li>
+                                        <div>Modern</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>Поп</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>Опера</div>
+                        <ul class="ui-state-disabled">
+                            <li>
+                                <div>Комическая опера</div>
+                            </li>
+                            <li>
+                                <div>Романтическая опера</div>
+                            </li>
+                            <li>
+                                <div>Опера для детского исполнения</div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

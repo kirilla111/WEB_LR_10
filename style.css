@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Nerko+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color:white;
+}
+main{
+    text-align: center;
+    align-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    background-color:whitesmoke;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+p{
+    padding-bottom: 10px;
+}
+.filter{
+    width: 400px;
+    align-content: center;
+    text-align: center;
+}
+ input{
+     width: 150px;
+     height: 30px;
+     float: right;
+     padding-bottom: 15px;
+     outline: none;
+     color: black;
+ }
+ button{
+     width: 100px;
+     height: 50px;
+     outline: 0;
+     background-color: whitesmoke;
+     padding: 10px;
+     border: 1px solid black;
+     margin-top: 20px;
+ }
+.paddPlus{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.border{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
+}
+button:active{
+    border: 2px solid blue;
+}
+ a{
+     text-decoration: underline;
+     color: black;
+ }
+input{
+    padding:5px;
+}
+.ui-menu { width: 150px; }
+#menu li{
+    font-size: 18px;
+    justify-content: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.fatherMenu li:hover{
+    font-weight: bold;
+    padding: 10px;
+    color: blue;
+}
+
